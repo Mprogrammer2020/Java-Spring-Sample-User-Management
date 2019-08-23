@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
+    <!-- use the font -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+	}
+	
+    </style>
+</head>
+<body style="margin-left: 10px; padding: 0;">
+	<center>
+			<div class="row">
+				<img style="max-height:100px;max-width: 100px; "src="http://18.188.95.244:8081/Cambuzz/images/logo-cambuzz.jpg" alt="Cambuzz" />
+			</div>
+		</center>
+		    <div style="padding-left:30px;margin-top: 10px;font-size: 20px;">Email Address : <span th:text="${email}"></span></div>
+		    <div style="padding-left:30px;margin-top: 10px;margin-bottom:10px;font-size: 20px;">Subject : <span th:text="${subject}"></span></div>
+
+			
+		    <div style="padding-left:30px;margin-top: 20px;margin-bottom:30px;font-size: 18px;">
+			     	<span th:text="${message}"></span>   
+			</div>
+		<hr style="margin: 10px 30px; 5px;" />
+	<center>	<span style="font-size:14px;">Copyright &copy; 2018. www.cambuzzapp.com</span></center>
+	
+	
+</body>
+</html>
